@@ -73,6 +73,8 @@ div.navbar {
         line-height: 50px;
         vertical-align: middle;
         text-align: center;
+        text-decoration: none;
+        color: $darkHoverBgColour;
       }
 
       ul {
@@ -171,6 +173,7 @@ div.navbar {
             line-height: 50px;
             vertical-align: middle;
             text-align: center;
+
             &:hover {
               color: $defaultHoverBgColour;
             }
@@ -203,7 +206,6 @@ div.navbar {
               }
               a:hover {
                 background: none;
-                color: $defaultBgColour;
                 transition: none;
               }
             }
@@ -284,6 +286,7 @@ div.navbar {
             background: none;
             a {
               background: none;
+              color: $darkBgColour;
             }
             &:hover {
               background: darken(#ffffff, 20%);

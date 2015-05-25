@@ -290,7 +290,9 @@ div.navbar {
         padding: 15px;
         line-height: 50px;
         vertical-align: middle;
-        text-align: center; }
+        text-align: center;
+        text-decoration: none;
+        color: #5d5d5d; }
       div.navbar ul li ul {
         display: none;
         position: absolute;
@@ -391,7 +393,6 @@ div.navbar {
             transition: none; }
           div.navbar.respond ul li ul li a:hover {
             background: none;
-            color: #ffffff;
             transition: none; }
           div.navbar.respond ul li ul ul {
             text-indent: 5%;
@@ -450,7 +451,8 @@ div.navbar {
           div.navbar.dark ul li ul li {
             background: none; }
             div.navbar.dark ul li ul li a {
-              background: none; }
+              background: none;
+              color: #232323; }
             div.navbar.dark ul li ul li:hover {
               background: #cccccc;
               color: #000000; }
